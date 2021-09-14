@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<style>
+    img{
+        border-radius: 20px;
+        box-shadow:5px 5px rgb(145, 138, 138);
+    }
+</style>
+<body>
+    <section class="header">
+    <nav> 
+        <div>
+        <img src="one.jpg" height="130px">
+        </div>
+    <div class="navlinks" id="navlink">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
+            
+        </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showmenu()"></i>
+    </nav>
+    <div class="textbox">
+        <h3>RAMAKANT'S RIPPED ROCK</h3>
+        <h2><span style="color: orange;">SORE TODAY STRONG TOMORROW</span></h2>
+        <a href="" class="btn">Visit us to know more</a>
+    </div>
+    </section>
+    <section class="about">
+        <h1>GET STRONGER</h1>
+        <p>We provide personalised schedules for weight loss according to the body type,<br> Weight lifting, preparing for Bodybuilding championships<br> and much more all under the guidance of <span style="color: red;">Mr.Ramakant(Mr.World 2007).</span></p>
+        <div class="row">
+            <div class="aboutcol">
+                <h3>Weight Loss</h3>
+                <p>Starting with your current weight to reaching<br> your target, we will asist you throughout<br> your ups and downs by providing with do's and dont's<br> in your diet.</p>
+            </div>
+            <div class="aboutcol">
+                <h3>Bodybuilding</h3>
+                <p>Mr.Ramakant who himself is a bodybuilder, will give<br> you all necessary guidlines to reshape your physique and<br> make you stronger and give you a healthy lifestyle.</p>
+            </div>
+            <div class="aboutcol">
+                <h3>General Fitness</h3>
+                <p>We've cardio section,weight sections for every body part.<br> We offer personal training by Mr.Ramkant.  </p>
+                
+            </div>
+    
+        </div>
+
+    </section>
+    <section class="abc">
+        <h1>Gallery</h1>
+        <div class="row">
+            <div class="aboutcol">
+                <img src="ert.JPG">
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        var navlink=document.getElementById("navlink");
+        function showmenu(){ 
+            navlink.style.right="0";
+        }
+        function hidemenu(){
+            navlink.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
